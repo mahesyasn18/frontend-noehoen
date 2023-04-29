@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.h-100 {
+  height: 26rem/* 384px */;
+}
 
 .card .card-shadow {
   @apply transition duration-300 shadow-none h-full;

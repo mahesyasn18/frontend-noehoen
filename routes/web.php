@@ -24,3 +24,7 @@ Route::get('/detail', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+Route::get('/news', function () {
+    return view('news');
+});
