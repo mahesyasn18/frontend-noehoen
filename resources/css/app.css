@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.card .card-shadow {
+  @apply transition duration-300 shadow-none h-full;
+}
+
+.card:hover .card-shadow {
+  @apply shadow-lg;
+}
+
 .stretched-link {
     @apply absolute inset-0 z-10;
   }
