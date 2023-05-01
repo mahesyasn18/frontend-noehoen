@@ -1,4 +1,5 @@
-@extends('template.base') @section('content')
+@extends('template.base') 
+@section('content')
 <!-- START: BREADCRUMB -->
 <section class="bg-gray-100 py-8 px-4 mt-17">
     <nav class="flex" aria-label="Breadcrumb">

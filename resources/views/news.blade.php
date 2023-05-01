@@ -1,4 +1,5 @@
-@extends('template.base') @section('content')
+@extends('template.base') 
+@section('content')
 <section class="bg-gray-100 py-8 mt-17">
     <div class="mx-8">
         <h2 class="text-xl md:text-3xl font-bold mb-4 rounded-lg">Featured News</h2>

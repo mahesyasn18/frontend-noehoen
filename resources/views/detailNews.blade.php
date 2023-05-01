@@ -1,4 +1,4 @@
-@extends('template.base')
+@extends('template.base') 
 @section('content')
 <section class="bg-gray-100 py-8 px-4 mt-17">
     <nav class="flex" aria-label="Breadcrumb">
@@ -32,25 +32,29 @@
 </section>
 <div class="bg-white rounded-lg p-6">
     <div class="flex flex-col">
-        <div class="md:w-3/5  mx-auto px-10 mt-4 mb-5">
-            <p class=" text-xl lg:text-3xl font-bold leading-relaxed text-gray-900 dark:text-white text-justify">The Al-powered app will help you improve yourself by analysing your everyday life.</p>
+        <div class="md:w-3/4 mx-auto px-10 mt-4 mb-5">
+            <p class="text-xl lg:text-3xl font-bold leading-relaxed text-gray-900 dark:text-white text-justify">The Al-powered app will help you improve yourself by analysing your everyday life.</p>
         </div>
-        
+
         <div class="lg:w-full lg:pr-4 mb-4 lg:mb-0 px-10">
-            <div class="rounded-xl border border-gray-400 overflow-hidden  md:w-3/5 w-full  mx-auto">
+            <div class="rounded-xl border border-gray-400 overflow-hidden md:w-3/4 w-full mx-auto">
                 <img src="{{asset("img/berita1.png")}}" class="w-full h-full object-cover object-center" alt="News Image">
             </div>
         </div>
-        <div class="md:w-3/5  mx-auto px-10 mt-5">
+        <div class="md:w-3/4 mx-auto px-10 mt-5">
             <p class="text-black mb-5 text-lg md:text-xl">24 December 2023 12:53:52</p>
             <div class="prose">
-                <p class="text-justify mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, enim dolorem. Culpa ipsum voluptatum necessitatibus numquam quibusdam quia reprehenderit beatae asperiores maxime consectetur. Unde eveniet dolore fuga porro sint ratione! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa accusantium at recusandae adipisci excepturi placeat numquam, autem, harum mollitia blanditiis magni totam illo alias ut labore rem? Voluptatum, temporibus!
+                <p
+                    class="text-justify mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left"
+                >
+                    Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual
+                    information to rapidly respond to requests, incidents, and changes. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, enim dolorem. Culpa ipsum voluptatum necessitatibus numquam quibusdam quia
+                    reprehenderit beatae asperiores maxime consectetur. Unde eveniet dolore fuga porro sint ratione! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa accusantium at recusandae adipisci excepturi placeat
+                    numquam, autem, harum mollitia blanditiis magni totam illo alias ut labore rem? Voluptatum, temporibus!
+                </p>
             </div>
         </div>
     </div>
 </div>
 
-
-
-  
 @endsection
