@@ -2,7 +2,7 @@
 <section class="bg-gray-100 py-8 mt-17">
     <div class="mx-8">
         <h2 class="text-xl md:text-3xl font-bold mb-4 rounded-lg">Featured News</h2>
-        <a href="#" class="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
+        <a href="/news/detail" class="relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
             <div class="rounded-xl border border-gray-400 overflow-hidden">
                 <img src="{{asset("img/berita1.png")}}" class=" w-full h-100 object-cover object-center" />
             </div>
@@ -37,7 +37,7 @@
                 </div>
                 <h5 class="text-lg font-semibold mt-4">News Title Lorem Ipsum Dolor Sit Amet</h5>
                 <p class="mt-3">7 November 2023</p>
-                <a href="/detail" class="stretched-link">
+                <a href="/news/detail" class="stretched-link">
                     <!-- fake children -->
                 </a>
             </div>
@@ -59,7 +59,7 @@
                 </div>
                 <h5 class="text-lg font-semibold mt-4">News Title Lorem Ipsum Dolor Sit Amet</h5>
                 <p class="mt-3">7 November 2023</p>
-                <a href="/detail" class="stretched-link">
+                <a href="/news/detail" class="stretched-link">
                     <!-- fake children -->
                 </a>
             </div>

@@ -28,3 +28,8 @@ Route::get('/product', function () {
 Route::get('/news', function () {
     return view('news');
 });
+
+Route::get('/news/detail', function () {
+    return view('detailNews');
+});
+
